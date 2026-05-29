@@ -52,9 +52,12 @@ body {
 }
 
 /* Inside Screen */
+/* Inside Screen - Responsive Component */
 .radar-screen {
     width: 300px;
     height: 300px;
+    max-width: 80vw;  /* Mobile screen-er high-width cross korbe na */
+    max-height: 80vw; /* Height and Width shobshomoy soman thakbe zeno perfect circle thake */
     background-color: var(--radar-bg);
     border-radius: 50%;
     position: relative;
